@@ -585,7 +585,7 @@ mod unix_impl {
         let unit = format!(
             "[Unit]\n\
              Description=Antigravity Unlocker local proxy\n\
-             After=network-online.target\n\n\
+\n\
              [Service]\n\
              ExecStart={exe} {flag}\n\
              Restart=on-failure\n\
